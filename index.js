@@ -9,7 +9,7 @@ const port = 8000;
 let blogs=[];
 
 // app.use(bodyParser.json());
-app.use(express.json());
+app.use(bodyParser.json());
 
 
 //query all stored users
